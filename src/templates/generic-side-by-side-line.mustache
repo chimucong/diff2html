@@ -1,0 +1,40 @@
+<tr>
+    <td class="{{lineClassLeft}} {{typeLeft}}">
+        {{{lineNumberLeft}}}
+    </td>
+    <td class="{{typeLeft}}" style="width: 50%;">
+        <div class="{{contentClassLeft}}">
+            {{#prefixLeft}}
+            <span class="d2h-code-line-prefix">{{{prefixLeft}}}</span>
+            {{/prefixLeft}}
+            {{^prefixLeft}}
+            <span class="d2h-code-line-prefix">&nbsp;</span>
+            {{/prefixLeft}}
+            {{#contentLeft}}
+            <span class="d2h-code-line-ctn">{{{contentLeft}}}</span>
+            {{/contentLeft}}
+            {{^contentLeft}}
+            <span class="d2h-code-line-ctn"><br></span>
+            {{/contentLeft}}
+        </div>
+    </td>
+    <td class="{{lineClassRight}} {{typeRight}}">
+        {{{lineNumberRight}}}
+    </td>
+    <td class="{{typeRight}}" style="width: 50%;">
+        <div class="{{contentClassRight}}">
+            {{#prefixRight}}
+            <span class="d2h-code-line-prefix">{{{prefixRight}}}</span>
+            {{/prefixRight}}
+            {{^prefixRight}}
+            <span class="d2h-code-line-prefix">&nbsp;</span>
+            {{/prefixRight}}
+            {{#contentRight}}
+            <span class="d2h-code-line-ctn">{{{contentRight}}}</span>
+            {{/contentRight}}
+            {{^contentRight}}
+            <span class="d2h-code-line-ctn"><br></span>
+            {{/contentRight}}
+        </div>
+    </td>
+</tr>
