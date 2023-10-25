@@ -1,8 +1,9 @@
 <tr>
+    {{#contents}}
     <td class="{{lineClass}} {{type}}">
       {{{lineNumber}}}
     </td>
-    <td class="{{type}}">
+    <td class="{{type}}" style="width: 50%;">
         <div class="{{contentClass}}">
         {{#prefix}}
             <span class="d2h-code-line-prefix">{{{prefix}}}</span>
@@ -18,4 +19,5 @@
         {{/content}}
         </div>
     </td>
+    {{/contents}}
 </tr>

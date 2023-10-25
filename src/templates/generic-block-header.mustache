@@ -1,6 +1,6 @@
 <tr>
     <td class="{{lineClass}} {{CSSLineClass.INFO}}"></td>
-    <td class="{{CSSLineClass.INFO}}">
-        <div class="{{contentClass}}">{{#blockHeader}}{{{blockHeader}}}{{/blockHeader}}{{^blockHeader}}&nbsp;{{/blockHeader}}</div>
+    <td class="{{CSSLineClass.INFO}}"{{#bothSides}} colspan=3 {{/bothSides}}>
+        <div class="{{contentClass}}{{#wrapWord}} d2h-wrap-word {{/wrapWord}}">{{#blockHeader}}{{{blockHeader}}}{{/blockHeader}}{{^blockHeader}}&nbsp;{{/blockHeader}}</div>
     </td>
 </tr>

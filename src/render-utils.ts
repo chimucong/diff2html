@@ -54,6 +54,7 @@ export const defaultRenderConfig = {
   maxLineLengthHighlight: 10000,
   diffStyle: DiffStyleType.WORD,
   colorScheme: ColorSchemeType.LIGHT,
+  wrapWord: false,
 };
 
 const separator = '/';

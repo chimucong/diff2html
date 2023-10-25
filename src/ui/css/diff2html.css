@@ -196,6 +196,13 @@
   width: 50%;
 }
 
+.d2h-wrap-word-file-side-diff {
+  display: inline-block;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  width: 100%;
+}
+
 .d2h-code-line {
   display: inline-block;
   white-space: nowrap;
@@ -223,6 +230,12 @@
   user-select: text;
   width: 100%;
   vertical-align: middle;
+}
+
+.d2h-wrap-word {
+  word-wrap: break-word;
+  word-break: break-all;
+  white-space: pre-wrap;
 }
 
 .d2h-code-line del,

@@ -14,6 +14,7 @@ import {
 
 export interface LineByLineRendererConfig extends renderUtils.RenderConfig {
   renderNothingWhenEmpty?: boolean;
+  wrapWord?: boolean;
   matchingMaxComparisons?: number;
   maxLineSizeInBlockForComparison?: number;
 }
@@ -275,6 +276,7 @@ export default class LineByLineRenderer {
       lineNumber: lineNumberHtml,
       line,
       file,
+      wrapWord: this.config.wrapWord,
     });
   }
 }
